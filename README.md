@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-duration-string/tags). For example,
+
+```javascript
 import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@v0.0.1-esm/index.mjs';
 ```
 
@@ -84,7 +89,7 @@ bool = isDurationString( '1d2h' );
 <body>
 <script type="module">
 
-import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@v0.0.1-esm/index.mjs';
+import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@esm/index.mjs';
 
 var bool = isDurationString( '1h' );
 // returns true
