@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@esm/index.mjs';
+import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@v0.2.2-esm/index.mjs';
 ```
 
 #### isDurationString( value )
@@ -95,7 +95,7 @@ bool = isDurationString( '1d2h' );
 <body>
 <script type="module">
 
-import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@esm/index.mjs';
+import isDurationString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-duration-string@v0.2.2-esm/index.mjs';
 
 var bool = isDurationString( '1h' );
 // returns true
